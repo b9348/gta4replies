@@ -1,8 +1,4 @@
-import React from 'react'
-
-export default function wtf() {
-  return (
-    <div>
+export const wtf = [`<div>
 
 # 2：原版游戏常见BUG:
 <br />
@@ -38,7 +34,7 @@ export default function wtf() {
 锁60帧解决大部分问题，**锁30帧+窗口化解决全部问题**。
 <br />
 <br />
-可通过专为 GTA 4 制作的 [Fusion Fix](https://wwi.lanzoup.com/b07xe74sj) 修复包中的 `FpsLimit` 和 `CutsceneFpsLimit` 选项，对游戏帧数与过场动画帧数单独进行设置。
+可通过专为 GTA 4 制作的 [Fusion Fix](https://wwi.lanzoup.com/b07xe74sj) 修复包中的 FpsLimit 和 CutsceneFpsLimit 选项，对游戏帧数与过场动画帧数单独进行设置。
 <br />
 <br />
 通过其他软件临时限制帧数亦可，甚至可以拔了笔记本电源，或是在任务管理器里把游戏设置成单核运行。
@@ -50,25 +46,25 @@ export default function wtf() {
 - 无法接听电话， **按下接听后自动挂断**   
 <br />
 <br />
-  按 `小键盘减号键` 开关一下**睡眠模式**试试，按下后提示`Sleep Mode Disabled`说明关掉了。  
+  按 小键盘减号键 开关一下**睡眠模式**试试，按下后提示Sleep Mode Disabled说明关掉了。  
   <br />
 <br />
-  提示  `Sleep Mode Enabled` 的话，过几秒再按一次减号键，把睡眠模式**关了**。  
+  提示  Sleep Mode Enabled 的话，过几秒再按一次减号键，把睡眠模式**关了**。  
   <br />
 <br />
   如果用SNT的快捷键**关闭**睡眠模式以后还是接不了电话，就只能**删除修改器**后开新档了。  
   <br />
 <br />
-  删除根目录下 `Trainer` 开头的几个文件即可删除修改器，搞不清楚就进根目录删除所有游戏文件重下。别用Steam的卸载功能，Mod卸不干净的。  
+  删除根目录下 Trainer 开头的几个文件即可删除修改器，搞不清楚就进根目录删除所有游戏文件重下。别用Steam的卸载功能，Mod卸不干净的。  
   <br />
 <br />
-  删了修改器开了新档，甚至重装了游戏，结果问题还是存在的话，打开 `此电脑\文档\Rockstar Games\GTA IV\Profiles`，里面应该有至少一个由`8位数字/字母`命名的文件夹，打开这个文件夹，删除里面的`ProfileSettings`文件。  
+  删了修改器开了新档，甚至重装了游戏，结果问题还是存在的话，打开 此电脑\文档\Rockstar Games\GTA IV\Profiles，里面应该有至少一个由8位数字/字母命名的文件夹，打开这个文件夹，删除里面的ProfileSettings文件。  
 <br />
 <br />
 - 一上车游戏就崩溃
 <br />
 <br />
-  按 `F3` 或 `F4` 呼出SNT菜单，选择 `Options`，移动到右边的倒数第七列，将 `Enable/Disable Ingame Messages` 设为 `Disabled`。
+  按 F3 或 F4 呼出SNT菜单，选择 Options，移动到右边的倒数第七列，将 Enable/Disable Ingame Messages 设为 Disabled。
   <br />
 <br />
   其实是因为上车时SNT会在屏幕底部显示当前电台名称，但这个功能在完整版里坏了。使用[修复版SNT](https://www.gtainside.com/en/gta4/trainers/161465-simple-native-trainer-for-steam-v1-2-0-43-fixed/)可以解决除个人电台以外的崩溃。
@@ -85,7 +81,7 @@ export default function wtf() {
 <br />
 <br />
 有能力的话还是推荐使用相对新一点的 [Liberty's Legacy Trainer](https://gtaforums.com/topic/973091-gta-iv-12043-libertys-legacy-trainer/)。
-不过这个修改器没有默认的功能快捷键，只能按 `F11` 呼出菜单以后用方向键和回车选择选项。
+不过这个修改器没有默认的功能快捷键，只能按 F11 呼出菜单以后用方向键和回车选择选项。
 
 <br />
 <br />
@@ -96,11 +92,11 @@ export default function wtf() {
 - 显存识别错误  
 <br />
 <br />
-  解决方案已经写在游戏里了。在 `commandline.txt` 或 Steam启动项 中添加一行 `-availablevidmem 2048` 即可
+  解决方案已经写在游戏里了。在 commandline.txt 或 Steam启动项 中添加一行 -availablevidmem 2048 即可
 
   <br />
 <br />
-- 进入游戏后提示 `Social Club初始化失败。错误代码：~1~`  
+- 进入游戏后提示 Social Club初始化失败。错误代码：~1~  
 <br />
 <br />
   解决方案也写在游戏里了。  
@@ -145,6 +141,4 @@ export default function wtf() {
 
     
     </div>
-  )
-}
-
+  `]
